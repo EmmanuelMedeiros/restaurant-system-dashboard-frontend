@@ -1,0 +1,22 @@
+/* Lighter skeleton elements */
+.ant-skeleton-title,
+.ant-skeleton-paragraph > li,
+.ant-skeleton-avatar,
+.ant-skeleton-input,
+.ant-skeleton-button {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Lighter shimmer effect */
+.ant-skeleton-title::after,
+.ant-skeleton-paragraph > li::after,
+.ant-skeleton-avatar::after,
+.ant-skeleton-input::after,
+.ant-skeleton-button::after {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  ) !important;
+}

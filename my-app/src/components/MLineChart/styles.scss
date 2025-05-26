@@ -1,0 +1,26 @@
+/* styles.scss */
+
+.recharts-tooltip-wrapper {
+  z-index: 10;
+
+  .recharts-default-tooltip {
+    background-color: #374151 !important; // Tailwind's gray-700
+    border: none !important;
+    border-radius: 8px !important;
+    color: #ffffff !important;
+    padding: 10px !important;
+    font-size: 13px !important;
+
+    .recharts-tooltip-label {
+      color: #e5e7eb !important; // slate-200
+      font-weight: 500;
+      font-size: 20px;
+      text-decoration: underline;
+      margin-bottom: 4px;
+    }
+
+    .recharts-tooltip-item {
+      color: #ffffff !important; // force white text
+    }
+  }
+}
