@@ -14,8 +14,6 @@ This project complements the **Mobile Restaurant System**, offering administrato
   Use of **interactive charts and graphs** to display key metrics such as:
   - Total orders per day/week/month
   - Revenue tracking
-  - Table utilization
-  - Waiter performance
 
 - ⚡ **Built with Vite:**  
   Ultra-fast bundling and development environment, enabling a snappy and efficient frontend experience.
@@ -53,13 +51,3 @@ This dashboard serves as an **extension** of the main mobile restaurant app, pro
 ### 🌐 Integration
 - Compatible with **Nest.js API** from the Mobile Restaurant System
 - Ready to consume statistics and reporting endpoints
-
----
-
-Let me know if you want me to add:
-- Chart screenshots
-- Live demo instructions
-- Contribution guidelines
-- CI/CD or deployment info
-
-I'm ready when you are! 🚀
